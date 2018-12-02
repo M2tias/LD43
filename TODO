@@ -1,0 +1,78 @@
+☐ Set up camera - not needed?
+    ✔ Player moves @done(18-12-01 17:51)
+    ✘ Camera moves @cancelled(18-12-01 17:51)
+☐ Generate starfield @started(18-12-01 09:55)
+    ✔ Should move "backwards" so that it seems like player moves forward @done(18-12-01 17:51)
+    ✔ Pointlike stars @started(18-12-01 09:55) @done(18-12-01 17:51) @lasted(7h56m26s)
+        ☐ Complex distribution?
+    ☐ Nebulas?
+    ☐ Planets?
+☐ MUST HAVE FIXES
+    ☐ hone the collision with enemy characters?
+    ✘ shooting collision is a bit too easy? @cancelled(18-12-02 17:48)
+    ✔ shooting the tinies is too hard @done(18-12-02 18:16)
+    ✔ one ship from the swarm doesn't go @done(18-12-02 08:47)
+    ✔ possible to spam fleet's ships @done(18-12-02 08:38)
+    ✔ sacrifice is still buggy @done(18-12-02 08:38)
+    ✔ ships don't die always @done(18-12-02 08:57)
+    ✔ QOL: don't let targeted ship change target @done(18-12-02 15:01)
+        ✔ filter targeted and random then? @done(18-12-02 15:01)
+    ✔ black box on the carrier?? @done(18-12-02 15:01)
+    ☐ ship doesn't fly to the boss correctly
+        ☐ maybe none of the moving enemies?
+        ☐ doesn't update the target pos after assignment?
+☐ GUI
+    ✔ Health bar @done(18-12-01 20:52)
+    ✔ Building resource @done(18-12-01 20:53)
+        ✔ Show it as an int, where one resource is one ship? @done(18-12-01 20:53)
+    ✔ Swarm size @done(18-12-01 20:53)
+    ☐ Dialog?
+☐ Player @started(18-12-01 11:47)
+    ☐ Shooting
+        ✔ Normal bullets @done(18-12-02 12:03)
+            ✔ Multiple @started(18-12-01 12:11) @done(18-12-01 12:11) @lasted(29s)
+            ✔ Can be charged, with scaling damage started(18-12-01 12:11) @done(18-12-01 12:11) @lasted(57s)
+        ✔ Small ship targeting / shooting @done(18-12-02 10:31)
+            ✔ Choose target, closest on the same x pos -+ 6? pixels @done(18-12-02 08:59)
+            ✔ Make a random ship fly @done(18-12-02 08:59)
+        ☐ Upgrade to normal shooting?
+    ✔ Movement @done(18-12-01 20:52)
+    ✔ Resources @done(18-12-02 15:20)
+        ✔ Health @done(18-12-02 15:00)
+        ✔ Ship building resource @done(18-12-02 15:00)
+        ✔ Dropping and gathering resources @done(18-12-02 15:20)
+☐ Miniships
+    ✔ Swarming @started(18-12-01 15:14) @done(18-12-01 15:14) @lasted(40s)
+        ✔ Make it prettier, randomize the waypoints @done(18-12-01 15:22)
+    ✔ Birthing @done(18-12-01 15:14)
+        ✔ Fly from the hold to the swarm @done(18-12-01 15:14)
+    ✔ Targeting @done(18-12-02 09:00)
+    ✔ Selecting random ship and flying it to the target @done(18-12-02 09:00)
+    ✔ Don't show text for enemies that have a ship assigned @done(18-12-02 15:00)
+    ☐ Add flames or something to the attacking ship
+☐ Enemies
+    ✔ Pos, movement, sprite, size, hp, drops @done(18-12-01 17:40)
+    ✔ Movement @done(18-12-02 18:17)
+        ✔ Different movement algorithms @done(18-12-02 15:00)
+        ✘ Different movements for same type of enemies? is it a good idea? @cancelled(18-12-02 15:00)
+    ✔ Enemy shooting @done(18-12-02 18:17)
+        ✔ Different shooting styles @done(18-12-02 14:59)
+        ✔ Collisions for laser @done(18-12-02 15:56)
+        ✔ Collisions for colliding the enemy creature @done(18-12-02 15:50)
+    ✔ Stunned @done(18-12-01 20:51)
+        ✔ Change the status @done(18-12-01 20:51)
+        ✔ Enable targeting or should it target everything? @done(18-12-02 14:59)
+    ✔ Death @done(18-12-02 14:59)
+        ✔ Delete enemy if no sacrifice is needed @done(18-12-01 20:52)
+        ✔ Delete enemy when ship flies in @done(18-12-02 10:31)
+        ✔ Explosions! @done(18-12-02 14:59)
+☐ DESTROYING THINGS
+    ☐ Generate explosions!
+☐ Levels?
+☐ Assets
+    ☐ More enemies?
+    ☐ Different weapons?
+    ☐ Level bg graphics?
+☐ Weapons or other upgrades?
+☐ Sound effects @started(18-12-01 20:54)
+☐ Music @started(18-12-01 11:36)
